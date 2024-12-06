@@ -28,7 +28,7 @@ function ProjectsSection() {
         </div>
 
         <div className="grid grid-cols-3 grid-rows-2 gap-x-4 mt-10 gap-y-8 lg:gap-y-4 text-white lg:mt-6 md:grid-cols-2">
-          <div className={`relative h-[400px] cursor-pointer`}>
+          <div className={`relative z-10 h-[400px] cursor-pointer`}>
             <div className={`h-[400px]`}>
               <img className="h-[400px]" src={projectsectionimg1} />
 
@@ -52,7 +52,7 @@ function ProjectsSection() {
 
           <div className={`relative h-[400px] cursor-pointer`}>
             <div className={`h-[400px]`}>
-              <img className="h-[400px]" src={projectsectionimg2} />
+              <img className="h-[400px] z-10" src={projectsectionimg2} />
 
               <div
                 className={`w-4/5 bg-white p-5 absolute bottom-7 left-[10%]`}

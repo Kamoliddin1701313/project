@@ -9,8 +9,8 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className="h-24 bg-[#070706] fixed w-full top-0">
-      <header className="max-w-[1296px] mx-auto z-50 flex mt-6 items-center justify-between text-white xl:px-5">
+    <div className="h-24 bg-[#070706] fixed z-50 w-full top-0">
+      <header className="max-w-[1296px] mx-auto flex mt-6 items-center justify-between text-white xl:px-5">
         <img src={logo} alt="logo" />
         <nav>
           <ul className="flex md:hidden items-center justify-between gap-10 lg:gap-7">
@@ -140,7 +140,6 @@ function Navbar() {
                 </span>
               </a>
             </li>
-            
           </ul>
 
           <ul>
