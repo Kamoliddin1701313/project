@@ -46,7 +46,7 @@ function Footer() {
         </div>
 
         <div className="flex justify-between items-center mt-20 text-white xl:mt-12 lg:flex-col lg:gap-5">
-          <div className="flex justify-between items-center gap-16 md:gap-5">
+          <div className="flex justify-between items-center gap-16 md:gap-5 sm:flex-col">
             <div className="flex items-center gap-3">
               <a href="#">
                 <FaceBookIcon className />

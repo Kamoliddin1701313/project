@@ -16,18 +16,18 @@ function TeamSection() {
     <div>
       <div className="max-w-[1296px] mx-auto py-20 xl:py-12 xl:px-5 md:py-8">
         <div className="flex justify-between items-end">
-          <div className="w-1/2 lg:w-3/4">
+          <div className="w-1/2 lg:w-3/4 sm:w-3/5">
             <span className="text-[#7F27FF] text-[18px] leading-[26px] font-semibold">
               OUR TEAM
             </span>
-            <h3 className="text-[64px] leading-[72px] font-semibold text-[#1A1D27] xl:text-[52px] xl:leading-[60px] lg:text-[38px] lg:leading-[45px] md:text-[32px] md:leading-8">
+            <h3 className="text-[64px] leading-[72px] font-semibold text-[#1A1D27] xl:text-[52px] xl:leading-[60px] lg:text-[38px] lg:leading-[45px] md:text-[32px] md:leading-8 sm:text-[28px]">
               Our Professional Team member
             </h3>
           </div>
 
           <Link
             to="/"
-            className="flex items-center gap-[6px] text-[#FF8911] md:text-[14px]"
+            className="flex items-center gap-[6px] text-[#FF8911] md:text-[14px] sm:text-[12px]"
           >
             <SendIcon className /> VIEW ALL
           </Link>
@@ -41,7 +41,7 @@ function TeamSection() {
                 alt="teamperson1"
                 className="bg-black rounded-[10px]"
               />
-              <div className="flex items-center gap-2 absolute bottom-5 left-6">
+              <div className="flex items-center gap-2 absolute bottom-5 left-6 sm:left-4">
                 <a
                   href="#"
                   className="flex items-center justify-center bg-[#FF8911] w-[35px] rounded-full h-[35px]"
@@ -64,7 +64,7 @@ function TeamSection() {
                 </a>
               </div>
             </div>
-            <h6 className="text-[#1A1D27] mt-5 text-[24px] font-semibold leading-7 lg:mt-2 lg:leading-6">
+            <h6 className="text-[#1A1D27] mt-5 text-[24px] font-semibold leading-7 lg:mt-2 lg:leading-6 sm:text-[20px] sm:leading-5">
               Eleanor Pena
             </h6>
             <p className="text-[#1A1D2799] mt-1 leading-6">Senior Developer</p>
@@ -77,7 +77,7 @@ function TeamSection() {
                 alt="teamperson1"
                 className="bg-black rounded-[10px]"
               />
-              <div className="flex items-center gap-2 absolute bottom-5 left-6">
+              <div className="flex items-center gap-2 absolute bottom-5 left-6 sm:left-4">
                 <a
                   href="#"
                   className="flex items-center justify-center bg-[#FF8911] w-[35px] rounded-full h-[35px]"
@@ -100,7 +100,7 @@ function TeamSection() {
                 </a>
               </div>
             </div>
-            <h6 className="text-[#1A1D27] mt-5 text-[24px] font-semibold leading-7 lg:mt-2 lg:leading-6">
+            <h6 className="text-[#1A1D27] mt-5 text-[24px] font-semibold leading-7 lg:mt-2 lg:leading-6 sm:text-[20px] sm:leading-5">
               Ralph Edwards
             </h6>
             <p className="text-[#1A1D2799] mt-1 leading-6">Senior Developer</p>
@@ -113,7 +113,7 @@ function TeamSection() {
                 alt="teamperson1"
                 className="bg-black rounded-[10px]"
               />
-              <div className="flex items-center gap-2 absolute bottom-5 left-6">
+              <div className="flex items-center gap-2 absolute bottom-5 left-6 sm:left-4">
                 <a
                   href="#"
                   className="flex items-center justify-center bg-[#FF8911] w-[35px] rounded-full h-[35px]"
@@ -136,7 +136,7 @@ function TeamSection() {
                 </a>
               </div>
             </div>
-            <h6 className="text-[#1A1D27] mt-5 text-[24px] font-semibold leading-7 lg:mt-2 lg:leading-6">
+            <h6 className="text-[#1A1D27] mt-5 text-[24px] font-semibold leading-7 lg:mt-2 lg:leading-6 sm:text-[20px] sm:leading-5">
               Albert Flores
             </h6>
             <p className="text-[#1A1D2799] mt-1 leading-6">Senior Developer</p>
@@ -149,7 +149,7 @@ function TeamSection() {
                 alt="teamperson1"
                 className="bg-black rounded-[10px]"
               />
-              <div className="flex items-center gap-2 absolute bottom-5 left-6">
+              <div className="flex items-center gap-2 absolute bottom-5 left-6 sm:left-4">
                 <a
                   href="#"
                   className="flex items-center justify-center bg-[#FF8911] w-[35px] rounded-full h-[35px]"
@@ -172,7 +172,7 @@ function TeamSection() {
                 </a>
               </div>
             </div>
-            <h6 className="text-[#1A1D27] mt-5 text-[24px] font-semibold leading-7 lg:mt-2 lg:leading-6">
+            <h6 className="text-[#1A1D27] mt-5 text-[24px] font-semibold leading-7 lg:mt-2 lg:leading-6 sm:text-[20px] sm:leading-5">
               Jerome Bell
             </h6>
             <p className="text-[#1A1D2799] mt-1 leading-6">Senior Developer</p>

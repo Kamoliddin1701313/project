@@ -25,7 +25,7 @@ function WhyChooseUs() {
             <span className="text-[#7F27FF] text-[18px] leading-[26px] font-semibold">
               Why choose us
             </span>
-            <h3 className="text-[#1A1D27] text-[64px] leading-[72px] font-semibold xl:text-[48px] xl:leading-[60px] lg:text-[38px] lg:leading-[52px]">
+            <h3 className="text-[#1A1D27] text-[64px] leading-[72px] font-semibold xl:text-[48px] xl:leading-[60px] lg:text-[38px] lg:leading-[52px] sm:text-[32px] sm:leading-[42px]">
               Proven Expertise in Complex IT Solutions
             </h3>
             <p className="text-[#1A1D2799] leading-6 my-5 xl:my-2">
@@ -39,7 +39,7 @@ function WhyChooseUs() {
 
             <div className="my-5 ">
               <div className="flex justify-between items-center">
-                <p className="text-[#1A1D27] text-[24px] leading-7 font-semibold">
+                <p className="text-[#1A1D27] text-[24px] leading-7 font-semibold sm:text-[20px] sm:leading-6">
                   An Award winning company
                 </p>
                 <IoIosArrowDown
@@ -62,7 +62,7 @@ function WhyChooseUs() {
 
             <div className="my-5 ">
               <div className="flex justify-between items-center">
-                <p className="text-[#1A1D27] text-[24px] leading-7 font-semibold">
+                <p className="text-[#1A1D27] text-[24px] leading-7 font-semibold sm:text-[20px] sm:leading-6">
                   Quick Research and Solutions
                 </p>
                 <IoIosArrowDown
@@ -85,7 +85,7 @@ function WhyChooseUs() {
 
             <div className="my-5">
               <div className="flex justify-between items-center">
-                <p className="text-[#1A1D27] text-[24px] leading-7 font-semibold">
+                <p className="text-[#1A1D27] text-[24px] leading-7 font-semibold sm:text-[20px] sm:leading-6">
                   Dedicated Support 24/7
                 </p>
                 <IoIosArrowDown
@@ -108,7 +108,7 @@ function WhyChooseUs() {
 
             <div className="my-5">
               <div className="flex justify-between items-center">
-                <p className="text-[#1A1D27] text-[24px] leading-7 font-semibold">
+                <p className="text-[#1A1D27] text-[24px] leading-7 font-semibold sm:text-[20px] sm:leading-6">
                   Quick Support & Tech Solution
                 </p>
                 <IoIosArrowDown

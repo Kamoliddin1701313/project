@@ -18,7 +18,7 @@ function CtaSection() {
   return (
     <div className="h-[460px] bg-yellow-700 flex items-center justify-center xl:h-[380px] md:h-[300px]">
       <div className="text-white text-center mx-auto max-w-[796px] lg:px-5">
-        <h1 className="text-[64px] leading-[72px] font-semibold lg:text-[52px] lg:leading-[60px] md:text-[42px] md:leading-[52px]">
+        <h1 className="text-[64px] leading-[72px] font-semibold lg:text-[52px] lg:leading-[60px] md:text-[42px] md:leading-[52px] sm:text-[36px]">
           Looking for the best IT business solutions?
         </h1>
         <Modal
@@ -31,11 +31,11 @@ function CtaSection() {
             <input
               type="text"
               placeholder="Phone number ..."
-              className="h-[52px] px-5 outline-none rounded-[10px] border-[1px] w-full border-gray-500"
+              className="h-[52px] px-5 outline-none rounded-[10px] border-[1px] w-full border-gray-500 sm:h-[42px]"
             />
             <button
               type="submit"
-              className="mt-4 w-full h-[52px] rounded-[10px] text-center bg-green-600 text-white font-semibold"
+              className="mt-4 w-full h-[52px] rounded-[10px] text-center bg-green-600 text-white font-semibold sm:h-[42px]"
             >
               Yuborish
             </button>

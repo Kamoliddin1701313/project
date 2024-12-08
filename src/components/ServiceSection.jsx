@@ -28,7 +28,7 @@ function ServiceSection() {
             <span className="text-[18px] leading-[26px] font-semibold text-[#FF8911]">
               SERVICE
             </span>
-            <h3 className="text-[64px] leading-[72px] font-semibold xl:text-[52px] xl:leading-[60px] lg:text-[42px] lg:leading-[50px] md:text-[36px]">
+            <h3 className="text-[64px] leading-[72px] font-semibold xl:text-[52px] xl:leading-[60px] lg:text-[42px] lg:leading-[50px] md:text-[36px] sm:text-[32px] sm:leading-[42px]">
               We Providing Complete Professional IT Services.
             </h3>
             <p className="mt-5 mb-10 xl:my-5">
@@ -103,11 +103,11 @@ function ServiceSection() {
                 </div>
 
                 <div>
-                  <span className="text-[#070706] my-4 text-[24px] leading-7 font-semibold">
+                  <span className="text-[#070706] my-4 text-[24px] leading-7 font-semibold sm:text-[20px] sm:leading-6">
                     Network solution
                   </span>
                   <p
-                    className={`text-[#1A1D27CC] my-4 lg:my-2 ${
+                    className={`text-[#1A1D27CC] my-4 lg:my-2 sm:text-[14px] ${
                       isHovered == 1 ? "hidden" : "block"
                     }`}
                   >
@@ -116,7 +116,7 @@ function ServiceSection() {
                   </p>
                   <Link
                     to="/"
-                    className={`flex items-center gap-3 text-[#7F27FF] text-[15px] leading-4 font-medium ${
+                    className={`flex items-center gap-3 text-[#7F27FF] text-[15px] sm:text-[12px] leading-4 font-medium sm:gap-[6px] ${
                       isHovered == 1 && "hidden"
                     }`}
                   >
@@ -145,11 +145,11 @@ function ServiceSection() {
                 </div>
 
                 <div>
-                  <span className="text-[#070706] my-4 text-[24px] leading-7 font-semibold">
+                  <span className="text-[#070706] my-4 text-[24px] leading-7 font-semibold sm:text-[20px] sm:leading-6">
                     Cyber security
                   </span>
                   <p
-                    className={`text-[#1A1D27CC] my-4 lg:my-2 ${
+                    className={`text-[#1A1D27CC] my-4 lg:my-2 sm:text-[12px] ${
                       isHovered == 2 ? "hidden" : "block"
                     }`}
                   >
@@ -158,7 +158,7 @@ function ServiceSection() {
                   </p>
                   <Link
                     to="/"
-                    className={`flex items-center gap-3 text-[#7F27FF] text-[15px] leading-4 font-medium ${
+                    className={`flex items-center gap-3 text-[#7F27FF] text-[15px] leading-4 font-medium sm:text-[12px] sm:gap-[6px] ${
                       isHovered == 2 && "hidden"
                     }`}
                   >
@@ -189,11 +189,11 @@ function ServiceSection() {
                 </div>
 
                 <div>
-                  <span className="text-[#070706] my-4 text-[24px] leading-7 font-semibold">
+                  <span className="text-[#070706] my-4 text-[24px] leading-7 font-semibold sm:text-[20px] sm:leading-6">
                     Data analytics
                   </span>
                   <p
-                    className={`text-[#1A1D27CC] my-4 lg:my-2 ${
+                    className={`text-[#1A1D27CC] my-4 lg:my-2 sm:text-[12px] ${
                       isHovered == 3 ? "hidden" : "block"
                     }`}
                   >
@@ -202,7 +202,7 @@ function ServiceSection() {
                   </p>
                   <Link
                     to="/"
-                    className={`flex items-center gap-3 text-[#7F27FF] text-[15px] leading-4 font-medium ${
+                    className={`flex items-center gap-3 text-[#7F27FF] text-[15px] leading-4 font-medium sm:text-[12px] sm:gap-[6px] ${
                       isHovered == 3 && "hidden"
                     }`}
                   >
@@ -231,11 +231,11 @@ function ServiceSection() {
                 </div>
 
                 <div>
-                  <span className="text-[#070706] my-4 text-[24px] leading-7 font-semibold">
+                  <span className="text-[#070706] my-4 text-[24px] leading-7 font-semibold sm:text-[20px] sm:leading-6">
                     View all services
                   </span>
                   <p
-                    className={`text-[#1A1D27CC] my-4 lg:my-2 ${
+                    className={`text-[#1A1D27CC] my-4 lg:my-2 sm:text-[12px] ${
                       isHovered == 4 ? "hidden" : "block"
                     }`}
                   >
@@ -244,7 +244,7 @@ function ServiceSection() {
                   </p>
                   <Link
                     to="/"
-                    className={`flex items-center gap-3 text-[#7F27FF] text-[15px] leading-4 font-medium ${
+                    className={`flex items-center gap-3 text-[#7F27FF] text-[15px] leading-4 font-medium sm:text-[12px] sm:gap-[6px] ${
                       isHovered == 4 && "hidden"
                     }`}
                   >

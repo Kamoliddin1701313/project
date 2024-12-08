@@ -6,7 +6,7 @@ function AboutUs() {
   return (
     <div className="w-full">
       <div className="mx-auto max-w-[1296px] py-20 xl:py-10 xl:px-5 md:py-7">
-        <h3 className="text-[64px] leading-[72px] font-semibold text-[#1A1D27] xl:text-[56px] xl:leading-[64px] lg:text-[42px] lg:leading-[52px] md:text-center md:text-[38px]">
+        <h3 className="text-[64px] leading-[72px] font-semibold text-[#1A1D27] xl:text-[56px] xl:leading-[64px] lg:text-[42px] lg:leading-[52px] md:text-center md:text-[38px] sm:text-[32px] sm:leading-[42px]">
           Our Company Specialize In IT Solutions & Technology with Passion
         </h3>
         <p className="leading-[24px] text-[#1A1D2799] my-6 xl:my-3 md:text-center">
@@ -60,7 +60,7 @@ function AboutUs() {
               rather than economically sound benefits. Progressively simplify
               end-to-end paradigms. Assertively streamline interfaces .
             </p>
-            <button className="text-[15px] leading-4 font-medium tracking-[1px] bg-[#070706] rounded-[6px] h-[56px] w-[242px] text-white xl:w-[200px] xl:h-[42px] md:mx-auto">
+            <button className="text-[15px] leading-4 font-medium tracking-[1px] bg-[#070706] rounded-[6px] h-[56px] w-[242px] text-white xl:w-[200px] xl:h-[42px] md:mx-auto sm:h-[38px] sm:text-[13px]">
               MORE ABOUT US
             </button>
           </div>
